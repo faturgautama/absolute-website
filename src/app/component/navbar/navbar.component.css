@@ -1,0 +1,31 @@
+a.nav-link {
+  color: var(--putih) !important;
+  font-size: 18px !important;
+}
+
+a.nav-link:hover {
+  font-weight: 500;
+  transition: transform 250ms, opacity 400ms;
+  transform: translateY(-5px);
+}
+
+span.phone_number {
+  color: var(--putih);
+}
+
+@media (max-width: 991.98px) {
+  li.nav-item > a.nav-link {
+    color: var(--merah) !important;
+  }
+
+  span.phone_number {
+    color: var(--merah);
+  }
+}
+
+.btn-contact-us {
+  background: var(--putih) !important;
+  color: var(--merah) !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 10rem !important;
+}

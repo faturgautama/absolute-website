@@ -1,0 +1,41 @@
+div#section-about {
+  background-image: url("../../../assets/image/bg.jpg"),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.91) 0%,
+      rgba(255, 255, 255, 0.94) 100%
+    );
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img_question {
+  height: 12.5rem;
+}
+
+.img_social_disctancing {
+  height: 12.5rem;
+}
+
+.icon_about {
+  height: 2rem;
+}
+
+p.content_title {
+  font-size: 23px;
+}
+
+@media (max-width: 575.98px) {
+  section#section-about {
+    padding-top: 0rem;
+  }
+
+  .div_img {
+    display: none;
+  }
+
+  p.content_title {
+    font-size: 18px;
+  }
+}

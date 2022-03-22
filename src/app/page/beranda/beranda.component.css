@@ -1,0 +1,28 @@
+#bg_image {
+  background-image: url("../../../assets/image/xavier-von-erlach-UvP0waz8a2o-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+p#banner_text {
+  font-size: 2.5rem;
+  background-color: var(--merah) !important;
+  border-radius: 5px;
+}
+
+.bg_logo {
+  height: 50%;
+  background-color: var(--merah);
+  background-image: url("../../../assets/image/logo.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center center;
+}
+
+@media (max-width: 575.98px) {
+  .bg_logo {
+    height: 25%;
+    background-size: 100%;
+  }
+}

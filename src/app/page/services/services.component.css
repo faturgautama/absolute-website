@@ -1,0 +1,17 @@
+section#section_timeline {
+  background-image: url("../../../assets/image/xavier-von-erlach-UvP0waz8a2o-unsplash.jpg"),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.91) 0%,
+      rgba(255, 255, 255, 0.94) 100%
+    );
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 2.5rem;
+}
+
+p.text_heading_timeline {
+  color: var(--merah);
+}

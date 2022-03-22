@@ -1,0 +1,14 @@
+img.card-img-top {
+  height: 15rem;
+  max-height: 15rem;
+}
+
+.div_title {
+  height: 4rem;
+}
+
+@media (max-width: 575.98px) {
+  .div_title {
+    height: 5rem !important;
+  }
+}

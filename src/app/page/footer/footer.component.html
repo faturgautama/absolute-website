@@ -1,0 +1,193 @@
+<section id="section_footer" class="bg-hitam">
+    <div class="row mb-3 px-3">
+        <!-- Kontak -->
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 div_footer_copyright mb-5">
+            <div class="row mb-0">
+                <!-- Heading -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-4 px-0">
+                    <h5 class="text-white mb-0 fw-bold">Contact & Link E-Commerce</h5>
+                </div>
+
+                <!-- Senin - Jumat -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 {{ screenWidth >= 992 ? 'mb-0' : 'mb-2'}} px-0">
+                    <div class="row">
+                        <div
+                            class="col-lg-3 col-md-3 col-sm-3 col-xs-3 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer">Senin - Jumat</p>
+                        </div>
+                        <div *ngIf="screenWidth >= 992" class="col-lg-1 col-md-1 col-sm-1 col-xs-1 px-0 text-center">
+                            <p class="text-white mb-0 text-footer">:</p>
+                        </div>
+                        <div
+                            class="col-lg-8 col-md-8 col-sm-8 col-xs-8 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer">08.00 AM - 21.00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sabtu -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 {{ screenWidth >= 992 ? 'mb-0' : 'mb-2'}} px-0">
+                    <div class="row">
+                        <div
+                            class="col-lg-3 col-md-3 col-sm-3 col-xs-3 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer">Sabtu</p>
+                        </div>
+                        <div *ngIf="screenWidth >= 992" class="col-lg-1 col-md-1 col-sm-1 col-xs-1 px-0 text-center">
+                            <p class="text-white mb-0 text-footer">:</p>
+                        </div>
+                        <div
+                            class="col-lg-8 col-md-8 col-sm-8 col-xs-8 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer">09.00 AM - 21.00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Minggu -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-3 px-0">
+                    <div class="row">
+                        <div
+                            class="col-lg-3 col-md-3 col-sm-3 col-xs-3 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer">Minggu</p>
+                        </div>
+                        <div *ngIf="screenWidth >= 992" class="col-lg-1 col-md-1 col-sm-1 col-xs-1 px-0 text-center">
+                            <p class="text-white mb-0 text-footer">:</p>
+                        </div>
+                        <div
+                            class="col-lg-8 col-md-8 col-sm-8 col-xs-8 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer">16.00 AM - 21.00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Whatsapp -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-3 px-0">
+                    <div class="row">
+                        <div
+                            class="col-lg-3 col-md-3 col-sm-3 col-xs-3 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer">Whatsapp</p>
+                        </div>
+                        <div *ngIf="screenWidth >= 992" class="col-lg-1 col-md-1 col-sm-1 col-xs-1 px-0 text-center">
+                            <p class="text-white mb-0 text-footer">:</p>
+                        </div>
+                        <div
+                            class="col-lg-8 col-md-8 col-sm-8 col-xs-8 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer cursor-pointer"
+                                (click)="onClickUrl('https://api.whatsapp.com/send/?phone=6281995000004&text=https%3A%2F%2Fekamedis.com%2F%0D%0A%0D%0AHi+CS%2C+Saya+ingin+bertanya2+tentang+produk+Ekamedis&app_absent=0')">
+                                +62 819 9500 0004
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-3 px-0">
+                    <div class="row">
+                        <div
+                            class="col-lg-3 col-md-3 col-sm-3 col-xs-3 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer">Email</p>
+                        </div>
+                        <div *ngIf="screenWidth >= 992" class="col-lg-1 col-md-1 col-sm-1 col-xs-1 px-0 text-center">
+                            <p class="text-white mb-0 text-footer">:</p>
+                        </div>
+                        <div
+                            class="col-lg-8 col-md-8 col-sm-8 col-xs-8 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer cursor-pointer" (click)=" onClickEmail()">
+                                cs@ekamedis.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tokopedia -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-0 px-0">
+                    <div class="row">
+                        <div
+                            class="col-lg-3 col-md-3 col-sm-3 col-xs-3 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer">Tokopedia</p>
+                        </div>
+                        <div *ngIf="screenWidth >= 992" class="col-lg-1 col-md-1 col-sm-1 col-xs-1 px-0 text-center">
+                            <p class="text-white mb-0 text-footer">:</p>
+                        </div>
+                        <div
+                            class="col-lg-8 col-md-8 col-sm-8 col-xs-8 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                            <p class="text-white mb-0 text-footer cursor-pointer"
+                                (click)="onClickUrl('https://www.tokopedia.com/ekamedis')">
+                                https://www.tokopedia.com/ekamedis
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alamat -->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 mb-5">
+            <div class="row">
+                <!-- Heading -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-4 px-0 text-center">
+                    <h5 class="text-white mb-0 fw-bold">Alamat CS & Kantor</h5>
+                </div>
+
+                <!-- PT ERA KALIS ABADI -->
+                <div
+                    class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-0 px-0 {{ screenWidth >= 992 ? 'text-start' : 'text-center'}}">
+                    <p class="text-white mb-0 fw-bold">
+                        PT. ERA KALIS ABADI
+                    </p>
+                </div>
+
+                <!-- PT ERA KALIS ABADI -->
+                <div
+                    class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-0 px-0 {{ screenWidth >= 992 ? 'text-justified' : 'text-center'}}">
+                    <p class="text-white mb-0 text-footer">
+                        Green Lake City, RUKAN CORDOBA, Blok E No. 003, Petir, Cipondoh, Kota Tangerang,
+                        Banten,15147
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ekamedis Social Media -->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 mb-5">
+            <div class="row text-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h5 class="text-white mb-4 fw-bold">Ekamedis Social Media</h5>
+                </div>
+            </div>
+
+            <div class="row text-center justify-content-center">
+                <div class="col-2">
+                    <img src="../../../assets/image/icon-facebook.svg" alt="" class="cursor-pointer"
+                        (click)="onClickUrl('https://www.facebook.com/Ekamedis.id')">
+                </div>
+                <div class="col-2">
+                    <img src="../../../assets/image/icon-instagram.svg" alt="" class="cursor-pointer"
+                        (click)="onClickUrl('https://www.instagram.com/ekamedis/')">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Links -->
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 mb-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center mb-4">
+                    <h5 class="text-white mb-4 fw-bold">Links</h5>
+
+                    <p class="text-white text-footer cursor-pointer" (click)="onClickMenuFooter('')">
+                        Home
+                    </p>
+                    <p class="text-white text-footer cursor-pointer" (click)="onClickMenuFooter('products')">
+                        Products
+                    </p>
+                    <p class="text-white text-footer cursor-pointer" (click)="onClickMenuFooter('services')">
+                        Services
+                    </p>
+                    <p class="text-white text-footer cursor-pointer" (click)="onClickMenuFooter('news')">
+                        News
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

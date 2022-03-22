@@ -1,0 +1,51 @@
+<nav class="navbar bg-merah navbar-dark navbar-expand-lg fixed-top shadow">
+    <div class="container">
+        <a class="navbar-brand" href="#">ABSOLUTE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-merah fw-bold" id="offcanvasNavbarLabel">ABSOLUTE</h5>
+                <button id="btnCloseOffcanvas" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close">
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" (click)="onNavigatePage('', screenWidth)">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" (click)="onNavigatePage('products', screenWidth)">Products</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" (click)="onNavigatePage('services', screenWidth)">Services</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" (click)="onNavigatePage('news', screenWidth)">News</a>
+                    </li>
+                </ul>
+                <span class="navbar-text pe-3 phone_number">
+                    +62 819 9500 0004
+                </span>
+                <button class="btn btn-contact-us btn-sm shadow-sm border-0" type="button"
+                    (click)="onClickUrl('https://api.whatsapp.com/send/?phone=6281995000004&text=https%3A%2F%2Fekamedis.com%2F%0D%0A%0D%0AHi+CS%2C+Saya+ingin+bertanya2+tentang+produk+Ekamedis&app_absent=0')">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>

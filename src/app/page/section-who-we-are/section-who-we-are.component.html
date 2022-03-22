@@ -1,0 +1,56 @@
+<!-- Section Who We Are -->
+<div id="section-about" class="row pt-5">
+    <section>
+        <div class="container">
+            <!-- Heading -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0 mb-3 text-center">
+                <app-heading [heading]="SectionWhoWeAreHeading" [headingClass]="'text-merah'"></app-heading>
+            </div>
+
+            <!-- Content -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 div_img" data-aos="fade-right" data-aos-delay="500">
+                        <div class="row mb-4">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                <img src="../../../assets/image/undraw_questions_re_1fy7.svg" alt="img_question"
+                                    class="img_question">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-end">
+                                <img src="../../../assets/image/undraw_social_distancing_2g0u.svg"
+                                    alt="img_social_disctancing" class="img_social_disctancing">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-aos="fade-left" data-aos-delay="500">
+                        <div class="row mb-4" *ngFor="let item of Content">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-2">
+                                <div class="row align-items-center mb-3">
+                                    <div class="col-2">
+                                        <img src="../../../../assets/image/{{ item.icon }}" alt="icon-info"
+                                            class="icon_about">
+                                    </div>
+                                    <div class="col-10">
+                                        <p class="text-black mb-0 content_title">
+                                            {{ item.title }}
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-end">
+                                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                        <p class="text-black mb-0" style="font-size: 14px; text-align: justify;">
+                                            {{ item.content }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

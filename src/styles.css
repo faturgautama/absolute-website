@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  font-family: "Nunito", serif !important;
+  background-color: var(--putih) !important;
+  scroll-behavior: smooth !important;
+}
+
+:root {
+  --hijau-tua: #2fba0c;
+  --abu: #3f6264;
+  --putih: #f4f4f4;
+  --merah: #ba0c2f;
+  --biru: #0c2fba;
+  --hitam: #363636;
+  --biru-tua: #1e266d;
+  --biru-muda: #3751ff;
+  --abu-muda: #e5e5e5;
+  --kuning: #dba917;
+}
+
+.bg-merah {
+  background-color: var(--merah) !important;
+}
+
+.bg-hitam {
+  background-color: var(--hitam) !important;
+}
+
+.text-merah {
+  color: var(--merah) !important;
+}
+
+.text-abu {
+  color: var(--abu) !important;
+}
+
+.text-putih {
+  color: var(--putih) !important;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.btn:active,
+.btn:focus {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}

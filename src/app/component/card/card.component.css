@@ -1,0 +1,106 @@
+.card-border-red {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  border-image: linear-gradient(
+    #ba0c2f 0%,
+    #c32a49 19%,
+    #cb4963 20%,
+    #d4677d 30%,
+    #dc8697 50%,
+    #e5a4b1 70%,
+    #eec2cb 84%,
+    #f6e1e5 85%,
+    #f4f4f4 95%,
+    #f4f4f4 100%
+  );
+  -webkit-border-image: -webkit-linear-gradient(
+    #ba0c2f 0%,
+    #c32a49 19%,
+    #cb4963 20%,
+    #d4677d 30%,
+    #dc8697 50%,
+    #e5a4b1 70%,
+    #eec2cb 84%,
+    #f6e1e5 85%,
+    #f4f4f4 95%,
+    #f4f4f4 100%
+  );
+  border-image-slice: 1;
+  height: 100%;
+}
+
+.card-border-biru {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  border-image: linear-gradient(
+    #0c2fba 0%,
+    #2a49c3 19%,
+    #4963cb 20%,
+    #677dd4 30%,
+    #8697dc 50%,
+    #a4b1e5 70%,
+    #c2cbee 84%,
+    #e1e5f6 85%,
+    #f4f4f4 95%,
+    #f4f4f4 100%
+  );
+  -webkit-border-image: -webkit-linear-gradient(
+    #0c2fba 0%,
+    #2a49c3 19%,
+    #4963cb 20%,
+    #677dd4 30%,
+    #8697dc 50%,
+    #a4b1e5 70%,
+    #c2cbee 84%,
+    #e1e5f6 85%,
+    #f4f4f4 95%,
+    #f4f4f4 100%
+  );
+  border-image-slice: 1;
+  height: 100%;
+}
+
+.card-border-hijau {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  border-image: linear-gradient(
+    #2fba0c 0%,
+    #49c32a 19%,
+    #63cb49 20%,
+    #7dd467 30%,
+    #97dc86 50%,
+    #b1e5a4 70%,
+    #cbeec2 84%,
+    #e5f6e1 85%,
+    #f4f4f4 95%,
+    #f4f4f4 100%
+  );
+  -webkit-border-image: -webkit-linear-gradient(
+    #2fba0c 0%,
+    #49c32a 19%,
+    #63cb49 20%,
+    #7dd467 30%,
+    #97dc86 50%,
+    #b1e5a4 70%,
+    #cbeec2 84%,
+    #e5f6e1 85%,
+    #f4f4f4 95%,
+    #f4f4f4 100%
+  );
+  border-image-slice: 1;
+  height: 100%;
+}
+
+.list_card_body {
+  font-size: 14px;
+}
+
+.card_container {
+  height: 20rem;
+}
+
+@media (max-width: 575.98px) {
+  .card_container {
+    height: 25rem;
+  }
+}

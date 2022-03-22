@@ -1,0 +1,6 @@
+<swiper [slidesPerView]="slidesPerView" [spaceBetween]="10" [autoplay]="true" data-swiper-autoplay="10000">
+    <ng-template swiperSlide *ngFor="let item of Content">
+        <app-card [CardClass]="'card-border-red'" [CardHeader]="item.title" [CardBody]="item.content">
+        </app-card>
+    </ng-template>
+</swiper>
